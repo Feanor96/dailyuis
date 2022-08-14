@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-image: url('https://www.eea.europa.eu/themes/biodiversity/state-of-nature-in-the-eu/state-of-nature-2020-subtopic/image_print');
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 25%;
+    padding-top: 4%;
+    align-items: center;
+}
+
+#heading, #heading-welcome {
+    font-size: 1.5rem;
+}
+
+#heading, #detail, #heading-welcome, #detail-welcome {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 300;
+}
+
+#detail {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.label {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 0.7rem;
+}
+
+.input {
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    height: 1.9rem;
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+#eye, #eye-confirm {
+    margin-top: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.password-input {
+    display: flex;
+}
+
+.btn-submit {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border-radius: 15px;
+    height: 1.4rem;
+    width: 110%;
+    padding-top: 0.7rem;
+    padding-bottom: 1.7rem;
+    background-image: linear-gradient(to right, #5833ee 0%, #5833ee  51%, #a322ff  100%);
+    color: #fff;
+    border: 0;
+}
+
+.signup-container {
+    margin-right: 7rem;
+    padding-right: 5rem;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bottom-line {
+    width: 50%;
+    border: 2px solid rgb(78, 77, 77);
+    border-radius: 2px;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+}
+
+.signup-container, .welcome-container {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.welcome-container {
+    margin-right: 40rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-top: 3.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.random-image {
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.btn-logout {
+    margin-top: 4rem;
+    text-transform: uppercase;
+    border-radius: 15px;
+    height: 1.4rem;
+    width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 1.7rem;
+    background-image: linear-gradient(to bottom-righ, #ffffff 0%, #ffffff  51%, #99959b  100%);
+    color: #000;
+    border: 0;
+}
+
+.bottom-line-confirm {
+    width: 50%;
+    border: 2px solid #4e4d4d;
+    border-radius: 2px;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+}
+
+#detail-welcome {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}

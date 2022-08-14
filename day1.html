@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./day1.css" />
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signup-container">
+            <h1 id="heading">create an account</h1>
+            <h2 id="detail">enter you credentials</h2>
+            <form class="form">
+                <label for="name" id="name-label" class="label">Name</label>
+                <input type="text" name="name" id="name-input" class="input" required />
+                <label for="email" id="email-label" class="label">Email</label>
+                <input type="text" name="email" id="email-input" class="input" required />
+                <label for="password" id="password-label" class="label">Password</label>
+                <div class="password-input">
+                    <input type="password" name="password" id="password-input" class="input" required />
+                    <i class="fa-solid fa-eye-slash" aria-hidden="true" id="eye" onclick="togglePassword()"></i>
+                </div>
+                <label for="confirm-password" id="confirm-password-label" class="label">Confirm Password</label>
+                <div class="password-input">
+                    <input type="password" name="confirm-password" id="confirm-password-input" class="input" required />
+                    <i class="fa-solid fa-eye-slash" aria-hidden="true" id="eye-confirm" onclick="toggleConfirmPassword()"></i>
+                </div>
+                <button type="submit" class="btn btn-submit">submit <i class="fas fa-paper-plane"></i></button>
+            </form>
+            <hr color="grey" class="bottom-line">
+        </div>
+        <div class="welcome-container">
+            <h1 id="heading-welcome">Welcome back salim</h1>
+            <h2 id="detail-welcome">you are now logged in</h2>
+            <img src="./random-face.jpg" class="random-image" />
+            <button class="btn btn-logout">Logout <i class="fas fa-sign-out-alt"></i></button>
+            <hr color="grey" class="bottom-line-confirm">
+        </div>
+    </div>
+    <script src="./day1.js"></script>
+</body>
+</html>
